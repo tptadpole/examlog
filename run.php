@@ -5,6 +5,8 @@ use Psr\Log\LoggerInterface;
 
 use Php\Exam\Logger;
 
+// nothing
+
 class MyApp1
 {
     private $logger;

@@ -2,7 +2,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/[GitHub帳號]/logger"
+            "url": "https://github.com/tptadpole/logger"
         }
     ],
     "require": {

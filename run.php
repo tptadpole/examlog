@@ -70,3 +70,5 @@ $myApp1->run2(['MyApp2', 'run1']);
 $myApp1->run2(['MyApp2']);
 $myApp1->run2(new MyApp2($logger, $msg));
 
+// try do something
+

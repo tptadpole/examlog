@@ -1,28 +1,15 @@
-## 驗證方式
+## 想法
 
-* Clone 專案
+composer.json需要一個套件
+這個套件在"https://github.com/tptadpole/logger"
+所以我需要先在自己的github上建立一個logger的repo
 
-	```
-	$ git clone https://github.com/snic104/examlog
-	```
+然後在我自己的電腦上初始化composer.json檔 所以在終端機下composer init
+接著自己根據run.php去寫logger內需要什麼
+把我寫好的logger加到composer的autoload裏
+push到github上的repo裡
 
-* 修改 `composer.json` 中的 `[GitHub帳號]` 成為各位的帳號 例如：`kitfbgh`
+這樣別人就可以git clone我的檔案
+autoload我寫好的logger
+順利執行run.php並得到理想的結果
 
-* 執行以下指令
-
-	```
-	$ composer install
-	$ php run.php
-	```
-
-* 正確結果
-
-	```
-	info
-	notice
-	notice
-	critical
-	info
-	error
-	notice
-	```

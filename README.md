@@ -13,3 +13,5 @@ push到github上的repo裡
 autoload我寫好的logger
 順利執行run.php並得到理想的結果
 
+目前應該是完成了 我在本機上測試沒問題
+如果有問題再告訴我
